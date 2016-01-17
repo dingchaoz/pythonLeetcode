@@ -14,7 +14,7 @@ The solution set must not contain duplicate triplets,
 
 
 """
-# maybe try to solve a 2sum problem first
+# solved 2sum,3sum,4sum problems
 class Solution:
 
     def threeSum(self,nums):
