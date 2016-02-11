@@ -7,7 +7,7 @@ class Solution:
         if n < 0:
             return 0
 
-        if n == 0:
+        if n == 0 or n ==1:
             return 1
 
         if n in map:
@@ -20,5 +20,5 @@ class Solution:
 map = {} # A dictionary, n is the key and map[n] is the value
 sl = Solution()
 n = 4
-ans = sl.stairs(1)
+ans = sl.stairs(n)
 print(ans)

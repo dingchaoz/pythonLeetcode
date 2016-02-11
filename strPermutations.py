@@ -8,32 +8,74 @@ cal3 - cal2 = for permutation in cal2:
                 for pos in range(len(permutation)
                     diff = insert '3' at pos + permutation
 """
-allpmts = []
-
+# map = {}
 class Solution:
+#
+#     def allpermts(self,string,map):
+#
+#         if len(string) == 1:
+#             map[1] = string
+#             return map[1]
+#
+#         if len(string) in map:
+#             return list(map.values())
+#
+#         newpemts = []
+#         for pemts in self.allpermts(string[:-1],map):
+#             for pos in range(len(pemts)):
+#                 newpemt = pemts[:pos] + string[-1] + pemts[pos:]
+#                 newpemts.append(newpemt)
+#
+#         map[len(string)] = newpemts
+#
+#         return list(map.values())
 
-    def strpmt(self,string):
 
-        if len(string) == 0:
-            allpmts.extend('')
-            return allpmts
+    def perm(self,s):
+        res = []
+        if len(s) == 1:
+            res = [s]
+            return [s]
 
-        if len(string) == 1:
-            allpmts.append(string)
-            return allpmts
+        if s in cache:
+            return cache[s]
 
-        newpmts = []
-        for pmt in self.strpmt(string[:-1]):
-            for pos in range(len(pmt)):
-                newpmt = pmt[:pos] + string[-1] + pmt[pos:]
-                newpmts.append(newpmt)
+        else:
+            for i, c in enumerate(s):
+                for p in self.perm(s[:i] + s[i+1:]):
+                    res += 1
+        cache[s] = res
+        return res
 
-        allpmts = newpmts
-        return allpmts
 
+
+
+# allpmts = []
+#
+# class Solution:
+#
+#     def strpmt(self,string):
+#
+#         if len(string) == 0:
+#             allpmts.extend('')
+#             return allpmts
+#
+#         if len(string) == 1:
+#             allpmts.append(string)
+#             return allpmts
+#
+#         newpmts = []
+#         for pmt in self.strpmt(string[:-1]):
+#             for pos in range(len(pmt)):
+#                 newpmt = pmt[:pos] + string[-1] + pmt[pos:]
+#                 newpmts.append(newpmt)
+#
+#         allpmts = newpmts
+#         return allpmts
+cache = {}
 sl = Solution()
-s = '1'
-ans = sl.strpmt(s)
+s = '123'
+ans = sl.perm(s)
 print(ans)
 
 

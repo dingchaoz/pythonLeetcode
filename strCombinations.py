@@ -6,7 +6,7 @@ strcom('123') - strcom('12') = '3','13','23','123' = for x in strcom('12') + '3'
 allCombinations = [] array of strings to hold results
 """
 
-allCombinations = []
+
 
 class Solution:
 
@@ -33,5 +33,6 @@ class Solution:
 
 sl = Solution()
 string = '123'
+allCombinations = []
 ans = sl.strcom(string)
 print(ans)
