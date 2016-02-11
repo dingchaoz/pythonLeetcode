@@ -1,4 +1,5 @@
 """
+
 cal1: allPermutations('1') = '1'
 cal2:allPermutations('12') = '12','21'
 cal3: allPermuations('123') = '123','132','213','231','321','312'
