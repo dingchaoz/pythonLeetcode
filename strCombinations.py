@@ -5,34 +5,27 @@ strcom('123') = 1,2,3,12,13,23,123
 strcom('123') - strcom('12') = '3','13','23','123' = for x in strcom('12') + '3', '3'
 allCombinations = [] array of strings to hold results
 """
-
-
+allcoms = []
 
 class Solution:
 
     def strcom(self,string):
 
-        length = len(string)
+        if len(string) == 0 or len(string) == 1:
+            allcoms.append(string)
+            return allcoms
 
-        if length == 0:
-            allCombinations.append('')
-            return allCombinations
+        newcoms = [string[-1]]
+        for com in self.strcom(string[:-1]):
+            newcom = com
+            newcom += string[-1]
+            newcoms.append(newcom)
+        allcoms.extend(newcoms)
+        return allcoms
 
-        if length == 1:
-            allCombinations.append(string)
-            return allCombinations
-
-        newsubstrings = [string[-1]]
-        for substring in self.strcom(string[:-1]):
-            newsubstring = substring
-            newsubstring += string[length-1]
-            newsubstrings.append(newsubstring)
-
-        allCombinations.extend(newsubstrings)
-        return allCombinations
 
 sl = Solution()
 string = '123'
-allCombinations = []
 ans = sl.strcom(string)
 print(ans)
+
