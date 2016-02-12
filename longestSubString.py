@@ -7,7 +7,7 @@
     elseif i in visited_chars:
        if i in cur_string:
          max_len = max(max_len,cur_len)
-         cur_len = 0
+         cur_len = 1
          cur_string = []
        else if i not in cur_string:
          cur_string.append(i)

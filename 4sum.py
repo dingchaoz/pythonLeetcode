@@ -6,8 +6,6 @@ class Solution:
 
         res = []
 
-        i = 0
-
         for i in range(len(array) - 3):
 
             for j in range(i+1,len(array)-2):

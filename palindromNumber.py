@@ -1,12 +1,9 @@
 """
-
 45654
 1st digit = 45654/10000
 last digit = 45654%10
 new numbers stripping out 1st and last = 45654%10000/10
 continue the 1st and last digit compare
-
-
 """
 
 class Solution:

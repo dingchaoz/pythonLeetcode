@@ -18,8 +18,6 @@ class Solution:
 
     def lps(self,string,m,n):
 
-        res = 0
-
         if n == m:
             res = 1
             return res
@@ -34,16 +32,17 @@ class Solution:
             #     res = 2 + self.lps(string,m+1,n-1)
             #     return res
             if self.lps(string,m+1,n-1) == n-m-1:
-                res = 2 + self.lps(string,m+1,n-1)
+                res = 1+n-m
                 return res
             else:
-                res = self.lps(string,m+1,n-1)
+                res = max(self.lps(string,m,n-1),self.lps(string,m+1,n))
+
                 return res
         else:
             res = max(self.lps(string,m,n-1),self.lps(string,m+1,n))
             return res
 
-s = 'abxbca'
+s = 'abbaca'
 n = len(s) - 1
 sl = Solution()
 ans = sl.lps(s,0,n)

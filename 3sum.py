@@ -30,9 +30,6 @@ class Solution:
         array.sort()
         res = []
 
-        i = 0
-
-
         for i in range(len(array) - 2):
 
             j = i + 1
@@ -59,7 +56,7 @@ class Solution:
                     j += 1
 
 
-        return(res)
+        return res
 
 
 
