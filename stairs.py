@@ -26,11 +26,11 @@ class Solution:
             return map[n]
 
         else:
-            map[n] = self.stairs(n-1,map) + self.stairs(n-2,map) + self.stairs(n-3,map)
+            map[sn] = self.stairs(n-1,map) + self.stairs(n-2,map) + self.stairs(n-3,map)
             return map[n]
 
 sl = Solution()
-n = 4
+n = 5
 map = [None] * (n+1)
 ans = sl.stairs(n,map)
 print(ans)
