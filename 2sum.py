@@ -43,7 +43,7 @@ class Solution:
 
 a = [3, 4, 5,10, 9,8,7, 1,5]
 
-t = 8
+t = 9
 solution = Solution()
 solution.twoSum(a,t)
 
