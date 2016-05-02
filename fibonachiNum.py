@@ -32,7 +32,7 @@ map = {}
 import time
 
 sl = Solution()
-n = 50
+n = 5
 
 start_time = time.time()
 ans = sl.fnumDP(n)
