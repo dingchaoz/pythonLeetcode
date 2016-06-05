@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71591e02-8b82-4a71-a02e-82d1a44a1680" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fibonachiNum.py" afterPath="$PROJECT_DIR$/fibonachiNum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getMedianArrays.py" afterPath="$PROJECT_DIR$/getMedianArrays.py" />
     </list>
     <ignored path="Python_LeetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fibonachiNum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fibonachiNum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fibonachiNum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31516936">
+            <state vertical-scroll-proportion="0.0">
               <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getMedianArrays.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getMedianArrays.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getMedianArrays.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.08836524">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -98,11 +98,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/getMedianArrays.py" />
         <option value="$PROJECT_DIR$/cardShuffle.py" />
         <option value="$PROJECT_DIR$/stairs.py" />
         <option value="$PROJECT_DIR$/2sum.py" />
         <option value="$PROJECT_DIR$/fibonachiNum.py" />
+        <option value="$PROJECT_DIR$/getMedianArrays.py" />
       </list>
     </option>
   </component>
@@ -741,14 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getMedianArrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stairs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -775,8 +767,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fibonachiNum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31516936">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getMedianArrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08836524">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>

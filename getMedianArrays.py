@@ -1,8 +1,8 @@
 #write a function will return a median of two sorted arrays
 # assume arrays only have positive integers, sorted from smaller to bigger numbers
 # assume lenghts of arrays could be different and big.
-# A=[1,3,5]
-# B=[2,4]
+# A=[1,3,6]
+# B=[2,4]s
 # findMedian(A,B) -->3
 
 """
