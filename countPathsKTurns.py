@@ -1,10 +1,10 @@
 """
-to reach position(i,j) with k turns
+This script solves to reach position(i,j) with k turns
 the count paths cpt equal to the sum of along the row and the column
 cpt(i,j,k) = cpt(i-1,j,k,0) + cpt(i,j-1,k,1)
 
 cpt(i,j,k,0) = cpt(i-1,j,k,0) + cpt(i,j-1,k-1,1)
-cpt(i,j,k,1) = cpt(i,j-1,k,1) + cpt(i-1,j,k-1,0)
+cpt(i,j,k,1) = cpt(i,j-1,k,1) + cpt(i-1,j,sk-1,0)
 
 """
 
