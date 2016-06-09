@@ -1,5 +1,6 @@
 """
 1. cur_string; max_len; cur_len; visisted_chars
+
 2. For i in string:
     if i not in visited_chars:
        cur_string.append(i)
