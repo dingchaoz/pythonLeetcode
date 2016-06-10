@@ -1,6 +1,7 @@
 
 class Solution:
 
+
     def fnum(self,n):
 
 
