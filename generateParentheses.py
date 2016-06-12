@@ -1,5 +1,6 @@
 """
 Rules:
+
 n pairs
 ( <= n
 ) <= (
